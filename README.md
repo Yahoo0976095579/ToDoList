@@ -2,7 +2,7 @@
 
 ## 專案畫面預覽
 
-<img src="./images/todolist.png" alt="代辦事項畫面" width="200" />
+<img src="./images/todolist.png" alt="代辦事項畫面" width="300" />
 
 ## 專案概述
 
