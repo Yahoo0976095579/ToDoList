@@ -12,17 +12,12 @@
 
 ### 後端設計（ASP.NET Core）
 
-分層架構：Controller ➝ Service ➝ Repository ➝ DbContext
-
-DTO（資料傳輸物件）：避免直接暴露資料庫實體。
-
-Interface 抽象化：定義合約，利於測試與擴充。
-
-相依性注入（DI）：建構子注入 Service、Repository、DbContext，統一註冊於 Program.cs
-
-非同步處理（async/await）：提升效能與可擴充性
-
-API 測試工具：使用 Postman 測試各 API 功能
+- **分層架構**：Controller ➝ Service ➝ Repository ➝ DbContext
+- **DTO（資料傳輸物件）**：避免直接暴露資料庫實體。
+- **Interface 抽象化**：定義合約，利於測試與擴充。
+- **DI 相依性注入**：建構子注入 Service、Repository、DbContext，統一註冊於 `Program.cs`
+- **非同步處理**：使用 `async/await` 提升效能與擴充性。
+- **API 測試工具**：使用 Postman 驗證 API 行為。
 
 前端實作（Vanilla JS）
 使用 fetch() 串接 Web API（GET / POST / PUT / DELETE）
