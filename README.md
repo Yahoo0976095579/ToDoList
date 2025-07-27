@@ -5,9 +5,9 @@
 一個前後端分離的 Todo List 應用，實作任務 **新增、查詢、更新與刪除（CRUD）**。  
 目標為熟練 **ASP.NET Core Web API 架構、資料庫操作** 與 **前端串接實作流程**。
 
-- 🔹 前端：HTML + CSS + JavaScript（Bootstrap 5）
-- 🔹 後端：ASP.NET Core Web API（C#）
-- 🔹 資料庫：SQL Server（LocalDB）
+- 前端：HTML + CSS + JavaScript（Bootstrap 5）
+- 後端：ASP.NET Core Web API（C#）
+- 資料庫：SQL Server（LocalDB）
 
 ## 技術細節
 
