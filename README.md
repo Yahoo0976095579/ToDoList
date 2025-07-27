@@ -1,10 +1,8 @@
 # 專案名稱：待辦事項管理系統 (Todo List Application)
 
-## 🔍 專案畫面預覽
+## 專案畫面預覽
 
-## 畫面預覽
-
-<img src="./images/todolist.png" alt="代辦事項畫面" width="400" />
+<img src="./images/todolist.png" alt="代辦事項畫面" width="200" />
 
 ## 專案概述
 
