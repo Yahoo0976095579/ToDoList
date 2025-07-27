@@ -1,4 +1,4 @@
-# 專案名稱：互動式待辦事項管理系統 (Todo List Application)
+# 專案名稱：待辦事項管理系統 (Todo List Application)
 
 ## 專案概述
 
