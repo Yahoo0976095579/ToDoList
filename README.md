@@ -1,5 +1,9 @@
 # 專案名稱：待辦事項管理系統 (Todo List Application)
 
+## 🔍 專案畫面預覽
+
+![畫面預覽](./todolist.png)
+
 ## 專案概述
 
 一個前後端分離的 Todo List 應用，實作任務 **新增、查詢、更新與刪除（CRUD）**。  
