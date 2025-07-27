@@ -1,0 +1,130 @@
+
+/* 基本樣式重設 */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* 主要容器 */
+.container {
+    background: #fff;
+    padding: 25px 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+/* 標題 */
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #555;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+
+/* 輸入區域 */
+.input-group {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#new-todo-input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+#new-todo-input:focus {
+    border-color: #77aaff;
+}
+
+#add-todo-btn {
+    padding: 10px 20px;
+    border: none;
+    background: #5cb85c;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#add-todo-btn:hover {
+    background: #4cae4c;
+}
+
+/* 待辦事項清單 */
+#incomplete-todo-list, #completed-todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#incomplete-todo-list li, #completed-todo-list li {
+    background: #eee;
+    padding: 12px 15px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: background-color 0.2s ease;
+}
+
+#incomplete-todo-list li.completed, #completed-todo-list li.completed {
+    background: #d9edf7;
+    text-decoration: line-through;
+    color: #888;
+}
+
+#incomplete-todo-list li:hover, #completed-todo-list li:hover {
+    background: #e0e0e0;
+}
+
+/* 事項文字 */
+#incomplete-todo-list li .todo-text, #completed-todo-list li .todo-text {
+    cursor: pointer;
+    flex-grow: 1;
+    margin-left: 10px; /* 為 checkbox 留出空間 */
+}
+
+/* 刪除按鈕 */
+#incomplete-todo-list li .delete-btn, #completed-todo-list li .delete-btn {
+    background: #d9534f;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    margin-left: 10px;
+    opacity: 0; /* 預設隱藏 */
+    transition: opacity 0.3s ease;
+}
+
+#incomplete-todo-list li:hover .delete-btn, #completed-todo-list li:hover .delete-btn {
+    opacity: 1; /* 滑鼠移過時顯示 */
+}
+
+#incomplete-todo-list li .delete-btn:hover, #completed-todo-list li .delete-btn:hover {
+    background: #c9302c;
+}

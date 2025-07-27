@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>待辦事項清單</h1>
+        <div class="input-group">
+            <input type="text" id="new-todo-input" placeholder="新增一個待辦事項...">
+            <button id="add-todo-btn">新增</button>
+        </div>
+        <h2>未完成事項</h2>
+        <ul id="incomplete-todo-list">
+            <!-- 未完成待辦事項將會動態插入到這裡 -->
+        </ul>
+
+        <h2>已完成事項</h2>
+        <ul id="completed-todo-list">
+            <!-- 已完成待辦事項將會動態插入到這裡 -->
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
